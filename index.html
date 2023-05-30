@@ -7,38 +7,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="./assets/images/faviconlogo.png">
     <link rel="stylesheet" href="./assets/css/style.css">
-
+    <script src="https://unpkg.com/feather-icons"></script>
     <title>Shop</title>
 </head>
 
 <body>
     <!-- Header section -->
-    <header>
-        <div class="header-container">
-            <div class="logo">
-                <img src="./assets/images/logo.png" alt="logo">
-            </div>
-            <!-- Desktop Menu items  -->
-            <nav>
-                <ul>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Shop</a></li>
-                    <li><a href="#">Contact</a></li>
-                    
-                </ul>
-            </nav>
-            <!-- Mobile Nav Icon -->
-            <button type="button" class="nav-button"></button>
 
-        </div>
-    </header>
-    <section class="hero">
-        <div class="hero-content">
-            <h1 class="hero-heading">New Product Collection</h1>
-            <a href="cta-button" href="#">SHOP NOW</a>
-        </div>
-    </section>
+        <header>
+            <div class="header-container">
+                <div class="logo">
+                    <img src="./assets/images/logo_white.png" alt="logo">
+                </div>
+                <!-- Desktop Menu items  -->
+                <nav class="nav">
+                    <ul>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Contact</a></li>
+                        
+                    </ul>
+                </nav>
+                <!-- Mobile Nav Icon -->
+    
+                <div>
+                    <i data-feather="user"></i>
+                    <i data-feather="shopping-cart"></i>
+                   <i data-feather="menu"></i>
+                     
+               
+                </div>
+                
+                
+    
+            </div>
+        </header>
+        
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-heading">New Product Collection</h1>
+                <a href="cta-button" href="#">SHOP NOW</a>
+            </div>
+        </section>
+
+    
+    <script>
+        feather.replace()
+      </script>
 </body>
 
 </html>
