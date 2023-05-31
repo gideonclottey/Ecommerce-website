@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+
 /* General code here  */
 
 *{
@@ -57,7 +57,10 @@ a:hover{
 }
 
 .cta-button{
-    text-underline-position: below;
+   font-family: 'Dosis',sans-serif;
+   color: black;
+   font-weight: 500;
+   border-bottom: 0.5px solid  black;
 }
 
 .hero-content h1{
